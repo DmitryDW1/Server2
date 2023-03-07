@@ -21,7 +21,7 @@ public class WebServer {
 
             while (true) {
                 Socket socket = serverSocket.accept();
-                System.out.println("New client connected!");
+                System.out.println("New client connected! Ura!!!");
 
                 new Thread(() -> handleRequest(socket)).start();
             }
